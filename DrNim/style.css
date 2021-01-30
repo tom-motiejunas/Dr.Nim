@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #3700b3;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--box {
+  position: fixed;
+  top: 300px;
+  right: 100px;
+  width: 1000px;
+  height: 340px;
+}
+
+.button {
+  padding: 80px;
+  border-radius: 80px;
+  background-color: #30475e;
+  border: none;
+  outline: none;
+}
+
+.scores--box {
+  position: fixed;
+  right: 275px;
+  bottom: 800px;
+  width: 675px;
+  height: 100px;
+}
+
+.turn--react {
+  position: fixed;
+  bottom: 675px;
+  width: 800px;
+  right: 200px;
+  height: 100px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.name,
+.score {
+  font-size: 30px;
+}
+h2 {
+  display: inline;
+}
+
+.left-box {
+  width: 337.5px;
+  height: 100px;
+}
+.right-box {
+  position: fixed;
+  width: 337.5px;
+  height: 100px;
+  left: 810px;
+  top: 10px;
+}
+.clicked {
+  background-color: #f2a365;
+}
+
+.restart {
+  position: fixed;
+  bottom: 100px;
+  width: 200px;
+  height: 100px;
+  right: 500px;
+  border-radius: 30%;
+  background-color: #3700b3;
+  border: none;
+  outline: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+.rules {
+  position: fixed;
+  width: 700px;
+  height: 700px;
+  background-color: black;
+  font-family: 'Nunito', sans-serif;
+  font-size: 50px;
+}
+
+.exit {
+  background-color: #3700b3;
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  top: 105px;
+  right: 290px;
+  border: none;
+  outline: none;
+}
